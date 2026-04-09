@@ -1,0 +1,9 @@
+<!-- The dark overlay behind the modal. Clicking it also closes the modal -->
+<div class="modal-overlay" (click)="onClose()">
+  <!-- The white box. stopPropagation prevents clicks INSIDE from bubbling to the overlay -->
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <h2>API Response</h2>
+    <p>{{ message }}</p>
+    <button (click)="onClose()">Close</button>
+  </div>
+</div>

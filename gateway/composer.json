@@ -1,6 +1,6 @@
 {
   "require": {
-    "slim/http": "1.4.0",
+    "guzzlehttp/guzzle": "7.10.0",
     "slim/psr7": "1.8.0",
     "slim/slim": "4.15.1"
   }
